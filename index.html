@@ -1,92 +1,108 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LanguageHelp — Изучение языков через диалог</title>
+    <title>Language Help — Your Personal Language Assistant</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
         <header class="header">
-            <h1 class="logo">🔤 LanguageHelp</h1>
-            <p class="tagline">Изучайте языки через живой диалог</p>
+            <div class="logo-wrapper">
+                <img src="logo.png" alt="Language Help Logo">
+            </div>
+            <p class="tagline">Breaking the limits. Adding dimensions.</p>
         </header>
 
         <main class="main">
             <section class="hero">
                 <div class="hero-content">
-                    <h2>ИИ-ассистент для изучения языков</h2>
+                    <h2>Always In Touch</h2>
                     <p class="hero-text">
-                        Глубокий анализ текстов, аудирование с аутентичными материалами, 
-                        этимологические исследования — всё в одном боте.
+                        Immersion, context-based learning, deep dive into culture.
                     </p>
-                    <a href="https://t.me/languagehelp_bot" class="cta-button">
-                        Начать в Telegram →
+                    <a href="https://t.me/x_diary_bot" class="cta-button">
+                        Start with Telegram →
                     </a>
                 </div>
                 <div class="hero-image">
-                    <svg width="200" height="200" viewBox="0 0 200 200">
-                        <circle cx="100" cy="100" r="90" fill="#3498db" opacity="0.2"/>
-                        <path d="M70 100 L90 130 L130 70" stroke="#3498db" stroke-width="8" fill="none" stroke-linecap="round"/>
-                        <circle cx="130" cy="70" r="8" fill="#3498db"/>
-                    </svg>
+                    <img src="bonsai.jpg" alt="Bonsai tree" class="bonsai-image">
                 </div>
             </section>
 
             <section class="features">
-                <h3>Возможности</h3>
                 <div class="features-grid">
                     <div class="feature-card">
-                        <div class="feature-icon">🔍</div>
-                        <h4>Глубокий перевод</h4>
-                        <p>Не просто перевод, а анализ нюансов, контекста и культурных особенностей.</p>
+                        <div class="feature-image-wrapper">
+                            <img src="diary.jpg" alt="Diary" class="feature-image">
+                        </div>
+                        <h4>Diary Notes</h4>
+                        <p>Learn through your daily diary entries. Share your life in the language you study, and our system helps you perfect your writing — correcting mistakes, explaining new words and phrases, and asking reflective questions.</p>
                     </div>
                     <div class="feature-card">
-                        <div class="feature-icon">📚</div>
-                        <h4>Этимология</h4>
-                        <p>Узнайте происхождение слов и как они связаны между языками.</p>
+                        <div class="feature-image-wrapper">
+                            <img src="listening.jpg" alt="Listening" class="feature-image">
+                        </div>
+                        <h4>Listening Practice</h4>
+                        <p>Generate audio from your texts with male and female voices in any language, including multilingual dialogues. Model real-life scenarios and practice comprehension with authentic materials from native speakers — complete with detailed explanations.</p>
                     </div>
                     <div class="feature-card">
-                        <div class="feature-icon">🎧</div>
-                        <h4>Аудирование</h4>
-                        <p>Аутентичные материалы от носителей языка с заданиями и обратной связью.</p>
+                        <div class="feature-image-wrapper">
+                            <img src="creation.jpg" alt="Creation" class="feature-image">
+                        </div>
+                        <h4>Material Creation</h4>
+                        <p>Create custom learning materials on topics you choose — fully adapted to your goals. Includes texts, dialogues, and image descriptions tailored to your level.</p>
                     </div>
                     <div class="feature-card">
-                        <div class="feature-icon">💬</div>
-                        <h4>Диалог</h4>
-                        <p>Учитесь через живое общение с ИИ-ассистентом.</p>
+                        <div class="feature-image-wrapper">
+                            <img src="phonetics-1.jpg" alt="Phonetics" class="feature-image">
+                        </div>
+                        <h4>Phonetic Analysis</h4>
+                        <p>Deep analysis of pronunciation, tones, and sound patterns specific to your target language — helping you speak like a native.</p>
                     </div>
-                </div>
-            </section>
-
-            <section class="commands">
-                <h3>Команды</h3>
-                <div class="commands-list">
-                    <div class="command-item">
-                        <code>/translate to:zh текст</code>
-                        <span>Глубокий перевод с анализом</span>
+                    <div class="feature-card">
+                        <div class="feature-image-wrapper">
+                            <img src="etymology.jpg" alt="Etymology" class="feature-image">
+                        </div>
+                        <h4>Etymology Exploration</h4>
+                        <p>Trace the historical roots of words and discover connections between languages across time and cultures.</p>
                     </div>
-                    <div class="command-item">
-                        <code>/etymology слово</code>
-                        <span>Исследование происхождения</span>
+                    <div class="feature-card">
+                        <div class="feature-image-wrapper">
+                            <img src="frame.png" alt="Semantic Frames" class="feature-image">
+                        </div>
+                        <h4>Pattern Discovery</h4>
+                        <p>Structural analysis of your text to reveal linguistic patterns — summarizing complex information in a clear, compact form.</p>
                     </div>
-                    <div class="command-item">
-                        <code>/resource zh</code>
-                        <span>Список материалов для аудирования</span>
+                    <div class="feature-card">
+                        <div class="feature-image-wrapper">
+                            <img src="interpreter.jpg" alt="Translation" class="feature-image">
+                        </div>
+                        <h4>Deep Translation</h4>
+                        <p>Translation with detailed explanations of linguistic nuances, cultural context, and register-specific usage.</p>
                     </div>
-                    <div class="command-item">
-                        <code>/resource id:zh-001</code>
-                        <span>Запуск конкретного материала</span>
+                    <div class="feature-card">
+                        <div class="feature-image-wrapper">
+                            <img src="thinkingman-1.jpg" alt="Comparative Linguistics" class="feature-image">
+                        </div>
+                        <h4>Comparative Linguistics</h4>
+                        <p>Compare structures, semantics, and grammar across languages to deepen your understanding of how languages work.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-image-wrapper">
+                            <img src="quiz-1.png" alt="Creative Tasks" class="feature-image">
+                        </div>
+                        <h4>Creative Tasks</h4>
+                        <p>A wide variety of thinking-oriented exercises: write essays, describe images, interpret dialogues, and answer open-ended questions — all designed to develop critical thinking.</p>
                     </div>
                 </div>
             </section>
         </main>
-
         <footer class="footer">
-            <p>© 2026 LanguageHelp. Все права защищены.</p>
-            <p class="footer-email">📧 languagehelp.io@gmail.com</p>
+            <p>© 2026 Language Help. All rights reserved.</p>
+            <p class="footer-email">languagehelp.io@gmail.com</p>
         </footer>
     </div>
 </body>
